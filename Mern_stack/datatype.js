@@ -20,3 +20,14 @@ console.log(typeof null);
 console.log(typeof undefined);
 
 
+let array=[1,"sohani",true,[]]
+console.log(typeof(array))
+
+let num1=Number(prompt("Enter First Number:"));
+let num2=Number(prompt("Enter Second Number"));
+let Sum;
+function test(num1,num2){
+    Sum=num1+num2;
+    return Sum;
+}
+console.log(test(num1,num2))

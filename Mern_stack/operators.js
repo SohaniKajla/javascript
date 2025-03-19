@@ -59,11 +59,11 @@ if(age>=18&& age <=50){
 //////////////////////////////////// TYPE OPERATOR (typeof & instanceof) ////////////////////////////////////////////////
 let date = new Date();
 console.log(date)
-console.log(date.getTime()); // Example: 1710801234567
+console.log(date.getTime()); // Example: 1710801234567 // DATATYPE CONVERSIONS  ////////////
 
 
 
-////////////////////////////////// BITWISE OPERATOR ////////////////////////////////////////
+////////////////////////////////// BITWISE OPERATOR(&,|,<<,>>,^,~) ////////////////////////////////////////
 let num = 4|8;
 console.log(num.toString(2).padStart(8, "0"));
 

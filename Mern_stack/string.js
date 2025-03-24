@@ -15,10 +15,16 @@ console.log(newString.substring(0,4));
 const anotherString= "    Sohani      ";
 console.log(anotherString);
 console.log(anotherString.trim());
+const anotherTwoString="        Sohani kajla         ";
+console.log(anotherTwoString.trimStart());
+console.log(anotherTwoString.trimEnd());
+console.log(anotherTwoString.toUpperCase());
+
+
 
 const anotherOneString = "Sohani Kajla"
 console.log(anotherOneString.replace(" ","-"));
 // console.log(anotherOneString.fontsize(4))
 // console.log(valueOf(anotherOneString));
-
+console.log(anotherOneString.length);
 
